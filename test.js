@@ -49,7 +49,7 @@ describe('primeFactors Challenge', () => {
      * TEST DESCRIPTION
      */
     it('Test5 - prime factors for number 987654321098765', () => {
-        let result = primeFactors(1234567890)
+        let result = primeFactors(987654321098765)
         let expected = "5 233 1279 662839679"
 
         assert.strictEqual(result,expected)
